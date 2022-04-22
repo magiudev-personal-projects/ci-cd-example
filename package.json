@@ -24,8 +24,12 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.4.0",
+    "husky": "^7.0.0",
+    "lint-staged": "^12.4.0",
     "vite": "^2.9.5",
-    "vitest": "^0.9.4",
-    "husky": "^7.0.0"
+    "vitest": "^0.9.4"
+  },
+  "lint-staged": {
+    "src/**/*.{jsx,js}": "eslint --cache --fix"
   }
 }
