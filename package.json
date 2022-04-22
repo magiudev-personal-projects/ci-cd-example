@@ -6,7 +6,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint --ext .jsx,.js src/"
+    "lint": "eslint --ext .jsx,.js src/",
+    "test": "vitest run"
   },
   "dependencies": {
     "react": "^18.0.0",
@@ -22,6 +23,7 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.4.0",
-    "vite": "^2.9.5"
+    "vite": "^2.9.5",
+    "vitest": "^0.9.4"
   }
 }
